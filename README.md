@@ -2,6 +2,8 @@
 
 This project is a React-based application to interact with the Ethereum powered lottery application created by me. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Please visit the Wiki for this github repository to find snippets of the application in action!
+
 ## To start the application server locally
 
 ####  `npm install`

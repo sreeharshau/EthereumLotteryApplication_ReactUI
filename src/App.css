@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: black;
+}
+
+#diceOnBlackImage{
+  width:12%;
+  height:12%;
+
+}
+
+.titleContainerDiv{
+  text-align: center;
+  background-color: #101010;
+  color:white;
+  padding:5px;
+}
+
+.ethereumIcon{
+  width:50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.contentSection{
+  background-image: url(".\\img\\diceBack.jpeg");
+  background-position: center;
+  padding:0px;
+  margin:0px;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  overflow:scroll;
+}
+
+.pieChartContainer{
+  height:80%;
+  width:100%;
+  text-align:center;
+  margin:5px;
+  border-radius:5px;
+  background-color: black;
+  opacity:0.9;
+  color:white;
+  display:inline-block;
+}
+
+.lotteryLeaderboard{
+  opacity:0.9;
+  border-radius: 5px;
+  display: inline-block;
+  color:white;
+  margin:5px;
+  vertical-align: top;
+}
+
+.registerForm{
+  margin:10px;
+  display:inline-block;
+}
+
+.registrationInfoDiv{
+  border: 2px groove black;
+  border-radius: 10px;
+  padding:10px;
+  display: inline-block;
+  background-color: #e6e6e6;
+  opacity:0.95;
+  margin:10px;
+}
+
+.regForm_SideContainer{
+  display:inline-block;
+  padding:10px;
+  vertical-align: top;
+  margin:10px;
+}
+.regForm_CurrentChanceDisplay{
+
+}
+
+.regForm_inputBoxContainer{
+  padding:10px;
+  margin:10px;
+}
+
+.managerSection{
+  border: 2px groove black;
+  border-radius: 10px;
+  padding:10px;
+  background-color: #e6e6e6;
+  opacity:0.95;
+  margin:10px;
+}
+.managerSection_pickWinnerDiv{
+  margin:10px;
+  padding:10px;
+}

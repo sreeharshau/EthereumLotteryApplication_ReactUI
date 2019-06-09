@@ -1,6 +1,6 @@
 # React-based UI for the ethereum powered lottery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React-based application to interact with the Ethereum powered lottery application created by me. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## To start the application server locally
 
